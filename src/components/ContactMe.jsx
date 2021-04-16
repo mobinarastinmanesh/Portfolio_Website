@@ -26,7 +26,7 @@ function Contactme() {
                 rows={10}
                 
              />
-            <Button className={style.btn} variant="contained" color="primary">
+            <Button className={style.btn} type="submit" variant="contained" color="primary">
               Submit
             </Button>
 
