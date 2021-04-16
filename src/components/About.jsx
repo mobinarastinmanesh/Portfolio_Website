@@ -13,13 +13,13 @@ function About() {
 },[])
   return (
     <div className={style.about_container} id="about" >
-       <div  data-aos="zoom-out-left" className={style.image_section , style.section }>
+       <div  data-aos="flip-up" className={style.image_section , style.section }>
           <div className={style.image}>
             <img src= {me} width="300px" height="450px"/>
           </div>
        </div>
 
-       <div data-aos="zoom-out-left" className={style.text_section , style.section }>
+       <div data-aos="flip-up" className={style.text_section , style.section }>
          <h1 className={style.title}>About me &#128522;</h1>
              <Typed
              data-aos="ease-out"

@@ -19,7 +19,7 @@ function Contactme() {
 
   return (
     <div  className={style.contactContaioner }  id="contact">
-      <div data-aos="fade-right" className={style.form_section , style.section } >
+      <div data-aos="zoom-in-up" className={style.form_section , style.section } >
         <h1 >Contact me &#127800;</h1>
         <form action="/contact" name="contact" method="post"  className={ style.form}>
             <input type="hidden" name="form-name" value="contact" />
@@ -38,7 +38,7 @@ function Contactme() {
 
         </form>
       </div>
-      <div data-aos="fade-left" className={style.pic_section , style.section}>
+      <div data-aos="zoom-in-up" className={style.pic_section , style.section}>
         <img src={image}  />
         
       </div>
