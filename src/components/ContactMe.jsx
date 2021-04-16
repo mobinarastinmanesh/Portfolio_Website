@@ -6,27 +6,30 @@ import image from '../images/msg.gif';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 function Contactme() {
+
+ 
   useEffect(()=>{
     AOS.init({
       duration: 2000
     })
 },[])
+
   return (
     <div  className={style.contactContaioner}  id="contact">
       <div data-aos="fade-right" className={style.form_section , style.section} >
         <h1 >Contact me &#127800;</h1>
-      <form className={style.form} action="/contact" name="contact" method="POST" data-netlify="true">
-      <input type="hidden" name="form-name" value="contact" />
+        <form action="/contact" name="contact" method="post">
+            <input type="hidden" name="form-name" value="contact" />
             <TextField name="name" label="Full name" />
             <TextField name="email" label="Email" />
             <TextField 
-                name="message" 
+                name="massage" 
                 label="Massage"
                 multiline
                 rows={10}
                 
              />
-            <Button className={style.btn} type="submit" variant="contained" color="primary">
+            <Button variant="contained" color="primary" type="submit">
               Submit
             </Button>
 
