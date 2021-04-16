@@ -1,0 +1,43 @@
+.contactContaioner{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    padding: 2%;
+    background-color: lightgrey;
+    /* flex-wrap: wrap; */
+}
+.section {
+    padding: 1%;
+    flex: 1;
+}
+
+
+.form{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2% ;
+}
+.btn{
+    margin-top: 50px !important;
+    background-color: lightseagreen;
+    width: 100px;
+}
+
+@media only screen and (max-width: 950px) {
+    .section .form_section{
+        /* padding: 1%; */
+        width: 100%;
+    }
+    .contactContaioner{
+        flex-direction: column;
+    }
+    img {
+        padding: 3%;
+        width:90%;
+        height: 90%;
+    }
+    
+}

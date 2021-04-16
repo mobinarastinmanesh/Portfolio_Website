@@ -1,0 +1,131 @@
+.container{
+    position: sticky;
+    display: flex;
+    z-index: 20;
+    position: relative;
+    top : 0;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding-top: 10px;
+ 
+}
+
+ .open{
+  border: none;
+  outline: none;
+  font-size: 24px;
+  background-color: transparent;
+  color: darkslateblue;  
+  margin-right: 10px;
+}
+.navlist_left{ 
+    z-index: 40 ;
+    width:12rem; 
+    position: fixed ;
+    top : 48px ;
+    right: 0; 
+    background-color:white;
+    animation-name: navbar;
+    animation-duration: 1s;
+}
+.navlist_left ul{
+    display: flex;
+    flex-direction:column;
+    list-style: none;
+    align-content: center;
+    justify-content:center;
+    font-size: 15px;
+    font-weight: bold;
+}
+/*******************************************/
+.navlist_top{  
+  display: none;
+  list-style: none;  
+}
+.navlist_top ul{
+    display: flex;
+    list-style: none;
+    align-content: center;
+    justify-content:center;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.navlist_top ul a{
+    text-decoration: none;
+    color: rgb(189, 34, 34);
+}
+/****************************************************/
+.navitem {
+    border: 1px solid lightcoral;
+    padding:  7px;
+    font-weight: bolder;
+    margin:1px 20px 1px -10px ;
+    border-radius: 5%;
+
+}
+.navitem:hover {
+    border: 1px solid rgb(49, 0, 0);
+    text-decoration: none;
+    color: black;
+    border-radius: 5%;
+    transition: all 0.5s ease;
+}
+.navitem:hover a{
+    text-decoration: none;
+    color: black; 
+}
+.navitem a{
+    padding: 0 7px;
+    color: black;
+    
+    text-decoration: none;
+}
+/*****************************************/
+.socialNetwork{
+    margin-left: -30PX;
+ }
+.socialList{
+    list-style: none;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    
+}
+.socialItem {
+  margin: -10px 10px;
+}
+.socialItem img {
+    width: 30px;
+    height: 30px;    
+}
+.socialItem:last-child img {
+    width: 36px;
+    height: 35px;    
+}
+.socialItem img:hover {
+    transition: all 1s linear;
+    transform: rotate(360deg)
+}
+/****************************************************/
+@keyframes navbar {
+    from {top :-22rem}
+    to {top : 48px}
+  }
+/****************************************************/
+@media only screen and (min-width: 700px) {
+        .navlist_top {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .navlist_left{
+            display: none;
+        }
+        .open{
+            display: none;
+        }
+        .navlist_left ul{display: none;}
+
+}
