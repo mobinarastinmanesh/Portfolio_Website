@@ -3,18 +3,24 @@
 
     justify-content: space-between;
     /* height: 90vh; */
+    align-items: center;
+    justify-items: center;
     padding: 40px 1% 1% 1%;
 }
 .section{
     margin-top: 30px;
+   
+
 }
 .skills{
+
     display: flex;
     margin:10px 20px ;
     flex-direction: column;   
 }
 /*******************************************************/
 .progressbar_container{
+    align-self: center;
     display: flex;
     padding: 7px;
     align-items: center;
@@ -47,7 +53,7 @@
 
 }
 /*********************************************/
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1300px) {
     .skill_container{
         flex-direction: column;
         height: auto;
@@ -61,7 +67,7 @@
     }
   
     img {
-        padding: 3%;
+        /* padding: 3%; */
         /* width: 400px; */
         
     }

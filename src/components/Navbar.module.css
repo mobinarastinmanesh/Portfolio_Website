@@ -115,7 +115,7 @@
     to {top : 48px}
   }
 /****************************************************/
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 1100px) {
         .navlist_top {
             display: flex;
             flex-direction: row-reverse;
