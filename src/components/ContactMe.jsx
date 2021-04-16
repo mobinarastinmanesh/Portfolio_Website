@@ -16,7 +16,7 @@ function Contactme() {
       <div data-aos="fade-right" className={style.form_section , style.section} >
         <h1 >Contact me &#127800;</h1>
       <form className={style.form} name="contact" method="POST" data-netlify="true">
-            <input type="hidden" name="form-name" value="contact" />
+             <input type="hidden" name="form-name" value="name_of_my_form" />
             <TextField name="name" label="Full name" />
             <TextField name="email" label="Email" />
             <TextField 
