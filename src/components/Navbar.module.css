@@ -1,5 +1,5 @@
 .container{
-    position: sticky;
+    position: fixeds;
     display: flex;
     z-index: 20;
     position: relative;
