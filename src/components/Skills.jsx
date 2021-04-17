@@ -37,7 +37,7 @@ useEffect(()=>{
 
       <div className={style.image_section , style.section} >
         <div className={style.image} >
-          <img src={gif} />
+          <img src={gif} id="skillimg" width="450px"/>
         </div>
       </div>
     </div>
