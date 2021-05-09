@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react';
 import style from './About.module.css';
-import me from "../images/me.png";
+import me from "../images/photo.jpg";
 import Typed from "react-typed"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -15,7 +15,7 @@ function About() {
     <div className={style.about_container} id="about" >
        <div  data-aos="flip-up" className={style.image_section , style.section }>
           <div className={style.image}>
-            <img src= {me} width="300px" height="450px"/>
+            <img src= {me} width="370px" height="380px"/>
           </div>
        </div>
 
@@ -28,7 +28,7 @@ function About() {
                   
                   style={{
                     color :"black",
-                    fontSize : "25px",
+                    fontSize : "23px",
                     fontWeight :"bold" ,
                     position: "relative" ,
                     top : "15%"
