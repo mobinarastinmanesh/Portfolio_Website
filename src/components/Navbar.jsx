@@ -5,8 +5,7 @@ import github from "../images/Github.png";
 import telegram from "../images/Airplane.png";
 import gmail from "../images/Gmail1.png";
 import resume from '../images/resume6.png'
-import cv from '../file/cv.pdf'
-import gitlab from '../images/gitlab1.png'
+import cv from '../file/Resume_MobinaRastinmanesh.pdf'
 import 'bootstrap/dist/css/bootstrap.min.css';
 function Navbar() {
     const [isExpanded, setExpanded] = useState(false);
