@@ -5,10 +5,10 @@
     position: relative;
     top : 0;
     flex-direction: row-reverse;
+    align-items: center;
     justify-content: space-between;
     background-color: white;
-    align-items: center;
-    padding-top: 10px;
+    padding-top: 15px;
     width: 100% !important;
 }
 
@@ -19,12 +19,13 @@
   background-color: transparent;
   color: darkslateblue;  
   margin-right: 10px;
+  margin-top: -10px;
 }
 .navlist_left{ 
     z-index: 40 ;
     width:12rem; 
     position: fixed ;
-    top : 48px ;
+    top : 46px ;
     right: 0; 
     background-color:white;
     animation-name: navbar;
