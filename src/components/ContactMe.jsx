@@ -25,7 +25,6 @@ function Contactme() {
             <input type="hidden" name="form-name" value="contact" />
             <TextField name="name" label="Full name" />
             <TextField name="email" label="Email" />
-            <input type="hidden" name="form-name" value="contact" />
 
             <TextField 
                 name="massage" 
