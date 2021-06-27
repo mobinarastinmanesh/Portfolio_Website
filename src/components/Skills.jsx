@@ -17,27 +17,27 @@ useEffect(()=>{
     <div className={style.skill_container} id="skill">
       
       <div className={style.skill_section , style.section} >
-        <h1 style={{fontWeight:"bold"}}> My Skills &#128142;</h1>
+        <h1 className={style.title}> My Skills &#128142;</h1>
         <div className={style.skills}  data-aos="flip-left">
-          <Progress skill="   HTML   " persent="90%" />
-          <Progress skill="   CSS    " persent="86%" />
-          <Progress skill="   SASS   " persent="84%"/>
-          <Progress skill="Bootstrap " persent="84%" />
-          <Progress skill="JavaScript" persent="85%" />
-          <Progress skill="Reactjs   " persent="85%" />
+          <Progress skill="java SE   " persent="95%" />
+          <Progress skill="   HTML   " persent="95%" />
+          <Progress skill="   CSS    " persent="90%" />
+          <Progress skill="   SASS   " persent="93%"/>
+          <Progress skill="Bootstrap " persent="90%" />
+          <Progress skill="JavaScript" persent="90%" />
+          <Progress skill="Reactjs   " persent="90%" />
           <Progress skill="jQuery    " persent="80%" />
-          <Progress skill="java SE   " persent="90%" />
           <Progress skill="     C    " persent="60%" />
           <Progress skill="    C++   " persent="50%" />
+          <Progress skill="Python    " persent="50%" />
           <Progress skill="    Git   " persent="70%" />
-          <Progress skill="    SQL   " persent="60%" />
           
         </div>
       </div>
 
       <div className={style.image_section , style.section} >
         <div className={style.image} >
-          <img src={gif} id="skillimg" width="450px"/>
+          <img src={gif} id="skillimg" width="470px"/>
         </div>
       </div>
     </div>

@@ -21,7 +21,7 @@
 
     display: flex;
     /* width: 100%; */
-    margin:10px 20px ;
+    margin:10px 10px ;
     flex-direction: column;   
 }
 /*******************************************************/
@@ -29,7 +29,7 @@
     align-self: center;
     display: flex;
     padding: 7px;
-    width: 100%;
+    width: 95%;
     align-items: center;
     align-items: baseline !important;
     
@@ -37,17 +37,16 @@
 .progress_bar_border{
     align-self: center;
    background-color:  rgb(9, 0, 68) ;
-   height: 20px;
+   height: 25px;
    border-radius: 20px 20px 20px 20px;
    padding: 0.7PX 4px;
-   width: 60%;
+   width: 75%;
 }
 .progress_bar_content{
     border-radius: 20px 20px 20px 20px;
     position: relative;
-    top: 25%;
-    
-    height: 10px;
+    top: 18%;
+    height: 15px;
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,90,1) 50%, rgba(252,69,70,1) 100%);
 }

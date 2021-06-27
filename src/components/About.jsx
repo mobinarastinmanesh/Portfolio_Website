@@ -13,16 +13,16 @@ function About() {
 },[])
   return (
     <div className={style.about_container} id="about" >
-       <div  data-aos="flip-up" className={style.image_section , style.section }>
+       <div  data-aos="flip-up" className={style.section }>
           <div className={style.image}>
-            <img src= {me} width="370px" height="380px"/>
+            <img src= {me} />
           </div>
        </div>
 
-       <div data-aos="flip-up" className={style.text_section , style.section }>
+       <div data-aos="flip-up" className={style.section }>
          <h1 className={style.title}>About me &#128522;</h1>
              <Typed
-             data-aos="ease-out"
+                  data-aos="ease-out"
                   strings ={['Hello Iam Mobina Rastinmanesh <br/> I was born in 1999 and i study software engineering at university of science and calture , tehran ,Iran.<br/>I have the ability to work as a  front-end web developer and web designer. <br/>I like building new stuff and work with other people – nothing really interesting is ever built alone!<br/>']}
                   typeSpeed={40}
                   

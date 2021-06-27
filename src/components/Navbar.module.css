@@ -1,5 +1,5 @@
 .container{
-    position: fixeds;
+    position: fixed !important;
     display: flex;
     z-index: 20;
     position: relative;
@@ -9,7 +9,7 @@
     background-color: white;
     align-items: center;
     padding-top: 10px;
- 
+    width: 100% !important;
 }
 
  .open{
